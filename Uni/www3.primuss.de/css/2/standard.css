@@ -1,0 +1,1203 @@
+/*  IMPORT FONTS  ============================================================================= */
+@font-face {
+    font-family: 'Open Sans Condensed';
+    src: url('https://www3.primuss.de/fonts/opensans-condensed/regular/OpenSans-CondLight-webfont.eot');
+    src: url('https://www3.primuss.de/fonts/opensans-condensed/regular/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www3.primuss.de/fonts/opensans-condensed/regular/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('https://www3.primuss.de/fonts/opensans-condensed/regular/OpenSans-CondLight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans Condensed Bold';
+    src: url('https://www3.primuss.de/fonts/opensans-condensed/bold/OpenSans-CondBold-webfont.eot');
+    src: url('https://www3.primuss.de/fonts/opensans-condensed/bold/OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://www3.primuss.de/fonts/opensans-condensed/bold/OpenSans-CondBold-webfont.woff') format('woff'),
+         url('https://www3.primuss.de/fonts/opensans-condensed/bold/OpenSans-CondBold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* Einzug Liste anpassen */
+ul, ol {
+  padding-left: 2rem; 
+}
+
+li { margin: 0.5em 0.5em 0.5em 0; };
+
+
+*/
+/* Grids von http://www.responsivegridsystem.com */
+/*  GRID OF TWO   ============================================================================= */
+
+
+.span_2_of_2 {
+        width: 100%;
+}
+
+.span_1_of_2 {
+        width: 49.2%;
+}
+
+
+.zwei {
+   width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_2_of_2 {
+                width: 100%; 
+        }
+        .span_1_of_2 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF THREE   ============================================================================= */
+
+
+.span_3_of_3 {
+        width: 100%; 
+}
+
+.span_2_of_3 {
+        width: 66.13%; 
+}
+
+.span_1_of_3 {
+        width: 32.26%; 
+}
+
+.drei {
+   width: 32.26%; 
+} 
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_3_of_3 {
+                width: 100%; 
+        }
+        .span_2_of_3 {
+                width: 100%; 
+        }
+        .span_1_of_3 {
+                width: 100%;
+        }
+}
+
+/*  GRID OF FOUR   ============================================================================= */
+
+
+.span_4_of_4 {
+        width: 100%; 
+}
+
+.span_3_of_4 {
+        width: 74.6%; 
+}
+
+.span_2_of_4 {
+        width: 49.2%; 
+}
+
+.span_1_of_4 {
+        width: 23.8%; 
+}
+
+
+.fest_4_of_4 {
+        width: 100%; 
+}
+
+.fest_3_of_4 {
+        width: 74.6%; 
+}
+
+.fest_2_of_4 {
+        width: 49.2%; 
+}
+
+.fest_1_of_4 {
+        width: 23.8%; 
+}
+
+
+.vier {
+   width: 23.8%; 
+} 
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_4_of_4 {
+                width: 100%; 
+        }
+        .span_3_of_4 {
+                width: 100%; 
+        }
+        .span_2_of_4 {
+                width: 100%; 
+        }
+        .span_1_of_4 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF FIVE   ============================================================================= */
+
+
+.span_5_of_5 {
+        width: 100%;
+}
+
+.span_4_of_5 {
+        width: 79.68%; 
+}
+
+.span_3_of_5 {
+        width: 59.36%; 
+}
+
+.span_2_of_5 {
+        width: 39.04%;
+}
+
+.span_1_of_5 {
+        width: 18.72%;
+}
+
+
+
+.fest_5_of_5 {
+        width: 100%;
+}
+
+.fest_4_of_5 {
+        width: 79.68%; 
+}
+
+.fest_3_of_5 {
+        width: 59.36%; 
+}
+
+.fest_2_of_5 {
+        width: 39.04%;
+}
+
+.fest_1_of_5 {
+        width: 18.72%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_5_of_5 {
+                width: 100%; 
+        }
+        .span_4_of_5 {
+                width: 100%; 
+        }
+        .span_3_of_5 {
+                width: 100%; 
+        }
+        .span_2_of_5 {
+                width: 100%; 
+        }
+        .span_1_of_5 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF SIX   ============================================================================= */
+
+
+.span_6_of_6 {
+        width: 100%;
+}
+
+.span_5_of_6 {
+        width: 83.0%;
+}
+
+.span_4_of_6 {
+        width: 66.13%;
+}
+
+.span_3_of_6 {
+        width: 49.2%;
+}
+
+.span_2_of_6 {
+        width: 32.26%;
+}
+
+.span_1_of_6 {
+        width: 15.33%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_6_of_6 {
+                width: 100%; 
+        }
+        .span_5_of_6 {
+                width: 100%; 
+        }
+        .span_4_of_6 {
+                width: 100%; 
+        }
+        .span_3_of_6 {
+                width: 100%; 
+        }
+        .span_2_of_6 {
+                width: 100%; 
+        }
+        .span_1_of_6 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF SEVEN   ============================================================================= */
+
+
+.span_7_of_7 {
+        width: 100%;
+}
+
+.span_6_of_7 {
+        width: 85.48%;
+}
+
+.span_5_of_7 {
+        width: 70.97%;
+}
+
+.span_4_of_7 {
+        width: 56.45%;
+}
+
+.span_3_of_7 {
+        width: 41.94%;
+}
+
+.span_2_of_7 {
+        width: 27.42%;
+}
+
+.span_1_of_7 {
+        width: 12.91%;
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_7_of_7 {
+                width: 100%; 
+        }
+        .span_6_of_7 {
+                width: 100%; 
+        }
+        .span_5_of_7 {
+                width: 100%; 
+        }
+        .span_4_of_7 {
+                width: 100%; 
+        }
+        .span_3_of_7 {
+                width: 100%; 
+        }
+        .span_2_of_7 {
+                width: 100%; 
+        }
+        .span_1_of_7 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF EIGHT   ============================================================================= */
+
+
+.span_8_of_8 {
+        width: 100%;
+}
+
+.span_7_of_8 {
+        width: 87.3%; 
+}
+
+.span_6_of_8 {
+        width: 74.6%; 
+}
+
+.span_5_of_8 {
+        width: 61.9%; 
+}
+
+.span_4_of_8 {
+        width: 49.2%; 
+}
+
+.span_3_of_8 {
+        width: 36.5%;
+}
+
+.span_2_of_8 {
+        width: 23.8%; 
+}
+
+.span_1_of_8 {
+        width: 11.1%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_8_of_8 {
+                width: 100%; 
+        }
+        .span_7_of_8 {
+                width: 100%; 
+        }
+        .span_6_of_8 {
+                width: 100%; 
+        }
+        .span_5_of_8 {
+                width: 100%; 
+        }
+        .span_4_of_8 {
+                width: 100%; 
+        }
+        .span_3_of_8 {
+                width: 100%; 
+        }
+        .span_2_of_8 {
+                width: 100%; 
+        }
+        .span_1_of_8 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF NINE   ============================================================================= */
+
+
+.span_9_of_9 {
+        width: 100%;
+}
+
+.span_8_of_9 {
+        width: 88.71%;
+}
+
+.span_7_of_9 {
+        width: 77.42%; 
+}
+
+.span_6_of_9 {
+        width: 66.13%; 
+}
+
+.span_5_of_9 {
+        width: 54.84%; 
+}
+
+.span_4_of_9 {
+        width: 43.55%; 
+}
+
+.span_3_of_9 {
+        width: 32.26%;
+}
+
+.span_2_of_9 {
+        width: 20.97%; 
+}
+
+.span_1_of_9 {
+        width: 9.68%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_9_of_9 {
+                width: 100%; 
+        }
+        .span_8_of_9 {
+                width: 100%; 
+        }
+        .span_7_of_9 {
+                width: 100%; 
+        }
+        .span_6_of_9 {
+                width: 100%; 
+        }
+        .span_5_of_9 {
+                width: 100%; 
+        }
+        .span_4_of_9 {
+                width: 100%; 
+        }
+        .span_3_of_9 {
+                width: 100%; 
+        }
+        .span_2_of_9 {
+                width: 100%; 
+        }
+        .span_1_of_9 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF TEN   ============================================================================= */
+
+
+.span_10_of_10 {
+        width: 100%;
+}
+
+.span_9_of_10 {
+        width: 89.84%;
+}
+
+.span_8_of_10 {
+        width: 79.68%;
+}
+
+.span_7_of_10 {
+        width: 69.52%; 
+}
+
+.span_6_of_10 {
+        width: 59.36%; 
+}
+
+.span_5_of_10 {
+        width: 49.2%; 
+}
+
+.span_4_of_10 {
+        width: 39.04%; 
+}
+
+.span_3_of_10 {
+        width: 28.88%;
+}
+
+.span_2_of_10 {
+        width: 18.72%; 
+}
+
+.span_1_of_10 {
+        width: 8.56%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_10_of_10 {
+                width: 100%; 
+        }
+        .span_9_of_10 {
+                width: 100%; 
+        }
+        .span_8_of_10 {
+                width: 100%; 
+        }
+        .span_7_of_10 {
+                width: 100%; 
+        }
+        .span_6_of_10 {
+                width: 100%; 
+        }
+        .span_5_of_10 {
+                width: 100%; 
+        }
+        .span_4_of_10 {
+                width: 100%; 
+        }
+        .span_3_of_10 {
+                width: 100%; 
+        }
+        .span_2_of_10 {
+                width: 100%; 
+        }
+        .span_1_of_10 {
+                width: 100%; 
+        }
+}
+
+
+/*  GRID OF ELEVEN   ============================================================================= */
+
+.span_11_of_11 {
+        width: 100%;
+}
+
+.span_10_of_11 {
+        width: 90.76%;
+}
+
+.span_9_of_11 {
+        width: 81.52%;
+}
+
+.span_8_of_11 {
+        width: 72.29%;
+}
+
+.span_7_of_11 {
+        width: 63.05%; 
+}
+
+.span_6_of_11 {
+        width: 53.81%; 
+}
+
+.span_5_of_11 {
+        width: 44.58%; 
+}
+
+.span_4_of_11 {
+        width: 35.34%; 
+}
+
+.span_3_of_11 {
+        width: 26.1%;
+}
+
+.span_2_of_11 {
+        width: 16.87%; 
+}
+
+.span_1_of_11 {
+        width: 7.63%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_11_of_11 {
+                width: 100%; 
+        }
+        .span_10_of_11 {
+                width: 100%; 
+        }
+        .span_9_of_11 {
+                width: 100%; 
+        }
+        .span_8_of_11 {
+                width: 100%; 
+        }
+        .span_7_of_11 {
+                width: 100%; 
+        }
+        .span_6_of_11 {
+                width: 100%; 
+        }
+        .span_5_of_11 {
+                width: 100%; 
+        }
+        .span_4_of_11 {
+                width: 100%; 
+        }
+        .span_3_of_11 {
+                width: 100%; 
+        }
+        .span_2_of_11 {
+                width: 100%; 
+        }
+        .span_1_of_11 {
+                width: 100%; 
+        }
+}
+
+/*  GRID OF TWELVE   ============================================================================= */
+
+.span_12_of_12 {
+        width: 100%;
+}
+
+.span_11_of_12 {
+        width: 91.53%;
+}
+
+.span_10_of_12 {
+        width: 83.06%;
+}
+
+.span_9_of_12 {
+        width: 74.6%;
+}
+
+.span_8_of_12 {
+        width: 66.13%;
+}
+
+.span_7_of_12 {
+        width: 57.66%; 
+}
+
+.span_6_of_12 {
+        width: 49.2%; 
+}
+
+.span_5_of_12 {
+        width: 40.73%; 
+}
+
+.span_4_of_12 {
+        width: 32.26%; 
+}
+
+.span_3_of_12 {
+        width: 23.8%;
+}
+
+.span_2_of_12 {
+        width: 15.33%; 
+}
+
+.span_1_of_12 {
+        width: 6.86%; 
+}
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+        .span_12_of_12 {
+                width: 100%; 
+        }
+        .span_11_of_12 {
+                width: 100%; 
+        }
+        .span_10_of_12 {
+                width: 100%; 
+        }
+        .span_9_of_12 {
+                width: 100%; 
+        }
+        .span_8_of_12 {
+                width: 100%; 
+        }
+        .span_7_of_12 {
+                width: 100%; 
+        }
+        .span_6_of_12 {
+                width: 100%; 
+        }
+        .span_5_of_12 {
+                width: 100%; 
+        }
+        .span_4_of_12 {
+                width: 100%; 
+        }
+        .span_3_of_12 {
+                width: 100%; 
+        }
+        .span_2_of_12 {
+                width: 100%; 
+        }
+        .span_1_of_12 {
+                width: 100%; 
+        }
+}
+
+
+/*  SECTIONS  ============================================================================= */
+
+.section {
+        clear: both;
+        padding: 0px;
+        margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+        display: block;
+        float:left;
+        margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+
+/* Kopfbereich */
+/* Menü 1 sichtbar Menu 2 unsichtbar */
+.menu1 {
+  visibility: visible;
+}
+/* Abstand Hamburger zum Rand*/
+#simple-menu {
+    margin-left: 10px;
+}
+
+
+.menu2 {
+  visibility: collapse;
+}
+
+#logofh { padding-left: 10px; }
+
+
+/* Navigation */
+#navcontainer {
+ padding-left: 5px;
+ padding-right: 5px;
+}
+
+
+/* SECONDARY NAVIGATION - vertical navigation */
+#nav-secondary, #nav-secondary ul {position:static}
+#nav-secondary, #nav-secondary li {list-style: none;margin:0;padding:0;background:#fff}
+#nav-secondary {padding-top:0;border-top: 1px solid #ccc;margin-top: 1px}
+#nav-secondary a {line-height:1.8;padding: 5px 0 5px 23px;background: white; font: normal 86% Arial,sans-serif;display:block}
+#nav-secondary a, #nav-secondary a:link, #nav-secondary a:visited, #nav-secondary a:hover, #nav-secondary a:active {text-decoration:none;cursor:pointer} 
+#nav-secondary a:link {color:#000} 
+#nav-secondary a:visited {color:#000} 
+#nav-secondary a:hover {color:#c00;background: #e8e8e8 } 
+#nav-secondary li.active a:link, #nav-secondary li.active a:visited, #nav-secondary li.active a:hover, #nav-secondary li.active a:active {color:#c00} 
+#nav-secondary li {border-top: 1px solid #fff;border-bottom: 1px solid #ccc}
+#nav-secondary span {line-height:1.8;padding: 5px 0 5px 23px; font: bold 86% Arial,sans-serif;}
+
+/* SECONDARY NAVIGATION - 2nd TIER */
+#nav-secondary ul {margin: 0 0 1em 23px;padding:0}
+#nav-secondary li.active li a, #nav-secondary li.active li a:link, #nav-secondary li.active li a:visited {line-height:1.5;background: #fff;padding:0 0 0 12px;font-weight:normal;width:auto;color:#000;width:130px;display:block}
+#nav-secondary li.active li a:hover, #nav-secondary li.active li a:active {color: #c00}
+#nav-secondary li.active li {border: none;margin:0}
+
+#nav-secondary li.active li.active a:link, 
+#nav-secondary li.active li.active a:visited, 
+#nav-secondary li.active li.active a:hover, 
+#nav-secondary li.active li.active a:active {font-weight: normal; }
+
+#navtitle {
+ background: gray;
+ color: white;
+ padding: 5px;
+ font-weight: bold;
+ font-size: 80%;
+}
+
+#nav_title {
+    font-weight: bold;
+}
+
+/* Sidr Menu größer */
+
+.sidr .sidr-inner{padding:0 20 15px 20}
+
+
+/* Mitte */
+main {
+  width: 99%; 
+}
+
+
+/* Allgemeine Angaben */
+* {
+    font-family: arial, helvetica, helve, sans-serif;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', verdana, helvetica, helve, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 100;
+}
+
+.bold {
+    font-family: 'Open Sans Condensed Bold', verdana, helvetica, helve, sans-serif;
+}
+
+
+h1 {font-size: 3em; margin-top: .5em; margin-bottom: 1em;}
+h2 {font-size: 2.8em; margin-top: .8em; margin-bottom: .4em;}
+h3 {font-size: 2.6em; margin-top: .6em; margin-bottom: .3em;}
+h4 {font-size: 2.4em; margin-top: .4em; margin-bottom: .4em;}
+h5 {font-size: 2.2em; margin-top: .4em; margin-bottom: .4em;}
+h5 {font-size: 1.8em; margin-top: .4em; margin-bottom: .4em;}
+
+.rechts {
+  text-align: right;
+}
+
+.mitte {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links {
+  text-align: left;
+}
+
+/* Standard Tabelle */
+table {border-collapse:collapse; width:100%}
+table td {padding:3px;border: 1px solid #dedede}
+table th {text-align:left;color:#000000;border: 1px solid #dedede}
+table thead th {text-align:left;color:#000000;font-size:200%;background: #dedede; padding: 10px 6px}
+table tbody th {background: #dedede; padding: 6px}
+table tbody th.sub {font-size:100%;color:#000;background: #efefef;padding: 6px}
+table th.left {text-align:left;color:#000000;border: 1px solid #dedede}
+table td.gruen { background: #a6ffaa} /* grÃ¼n */
+table td.rot { background: #ffa6a6} /* rot */
+table td.gelb { background: #fffca6} /* gelb */
+
+table.noborder {border: 0px}
+table.noborder td {border: 0px}
+
+/* Gestreifte Tabelle */
+table.gestreift td {border: 0; border-bottom: 1px solid black;};
+table.gestreift th {border: 0 };
+table.gestreift thead th {background: white; border-color:white}
+table.gestreift tbody th {background: white; border-color:white; border-top:1px solid black; border-bottom:1px solid black;}
+table.gestreift tr:nth-child(even) { background-color: #ccffcc } 
+
+/* Farben */
+.gruenmark {color:#339966; font-weight: bold} 
+h3 .gruenmark {
+    color:#339966; 
+    font-size:60%;
+    font-family: 'Open Sans Condensed Bold', verdana, helvetica, helve, sans-serif;
+} 
+
+.blaumark {color:#0090C0; font-weight: bold}
+h3 .blaumark {
+    color:#0090C0; 
+    font-size:60% 
+    font-family: 'Open Sans Condensed Bold', verdana, helvetica, helve, sans-serif;
+}
+
+.rotmark {color:#B44C58; font-weight: bold} 
+h3 .rotmark {
+    color:#B44C58; 
+    font-size:60%
+    font-family: 'Open Sans Condensed Bold', verdana, helvetica, helve, sans-serif;
+}
+
+td#gelb { background: #fffca6} /* gelb */
+td#rot { background: #ffa6a6} /* rot */
+td#gruen { background: #a6ffaa} /* gruen */
+td#hellgruen { background: #C7FFD3 } /* hellgruen */
+td#blau { background: #c5c6ff} /* blau */
+td#dunkelgruen { background: #669966 }  /* dunkelgruen */
+td#orange { background: #FFA858 }  /* orange */
+
+#details {color:#FF8000; margin-left: 5px; font-weight:bold; font-size:120%; text-decoration:none; cursor:help }
+.highlight {color:#E17000}
+.subdued {color:#999}
+.error {color:#c00;font-weight:bold}
+.success {color:#390;font-weight:bold}
+.caption {color:#999;font-size:11px}
+.mark {background: #999}
+
+/* Fehler */
+p.Fehler {font-size:14px; color:#a91739; font-family: Arial,sans-serif; font-weight: normal; text-align: left;}
+p.Warning {font-size:14px; color:#17a93d; font-family: Arial,sans-serif; font-weight: normal; text-align: left;}
+
+span.Fehler {vertical-align: baseline; font-size: 0.8em; color: #a91739; font-weight: bold;  background: #fffae8; border: solid;  border-color: #a91739; margin-right: 1em; padding-left: 3px;  padding-right: 3px; border-width: 1px;}
+span.Warning {vertical-align: baseline; font-size: 0.8em; color: #17a94e; font-weight: bold;  background: #fffae8; border: solid; border-color: #17a94e; margin-right: 1em; padding-left: 3px;  padding-right: 3px; border-width: 1px;}
+span.Mark {vertical-align: baseline; font-size: 0.8em; font-weight: bold;  background: #dedede; border: solid; margin-right: 1em; padding-left: 3px;  padding-right: 3px; border-width: 1px;}
+
+
+/* FORMS */
+.raiform * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-text-size-adjust:none
+}
+        
+form.raiform { background:lightgray; padding: 10px; }
+
+.raiform > div {
+    overflow: hidden;
+    padding: 1px;
+    margin: 0 0 10px 0;
+}
+.raiform > div > fieldset > div > div {
+    margin: 0 0 5px 0;
+}
+
+
+.raiform fieldset {
+        border: 0;
+        padding: 0;
+}
+
+input[type=text],input[type=email],input[type=tel],input[type=url],input[type=password],input[type=date],input[type=number],textarea,select {
+        width: 93%;
+        
+        font-size:1em;
+}
+
+.option {
+    font-size: 120%;
+    
+}
+
+
+input[type=text]:focus,input[type=email]:focus,input[type=tel],input[type=url]:focus,input[type=password]:focus,input[type=date]:focus,input[type=number]:focus,textarea:focus,select:focus {
+    outline: 0;
+    font-size: 1em;
+}
+
+form:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+}
+
+/* grüner Stern */
+form.raiform div.req {color:#666; width:auto;text-align:right;white-space:normal}
+form.raiform span.req  {color:green; font-weight: 900}
+
+@media (min-width: 769px) {
+        .raiform > div > label, fieldset legend {
+                width: 25%;
+                float: left;
+                padding-right: .625em;
+        }
+        .raiform > div > div, .raiform > div > fieldset > div {
+                width: 75%;
+                float: right;
+        }
+        input[type=text],input[type=email],input[type=url],input[type=password],input[type=tel],input[type=date],input[type=number],textarea,select  {
+                width: 50%;
+        }
+        select {
+                width:auto;
+        }
+        textarea {
+            width: 98%;
+        }
+}
+@media (min-width: 1025px) {
+    .raiform > div > label, fieldset > legend {
+        text-align: right;
+    }
+}
+
+
+             
+button {background:#666;color:#fff;font-weight:bold;font-size:96%;white-space: normal !important;}
+button:hover {background:#999;color:#fff;font-weight:bold;font-size:96%}
+
+a {padding: 1px 3px;background:#666;color:#fff;font-weight:bold;font-size:96%; text-decoration:none;white-space: normal !important;}
+a:hover {padding: 1px 3px;background:#999;color:#fff;font-weight:bold;font-size:96%; text-decoration:none}
+
+.smartlink {padding:0; background:white;color:black;font-weight:bold;font-size:96%; text-decoration:none;white-space: normal !important;}
+.smartlink:hover {padding:0; background:white;color:black;font-weight:bold;font-size:96%; text-decoration:none}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Bild ändert die Breite nicht */
+.noflex {
+    max-width:none
+}
+
+
+/* Fussbereich */
+#footercontainer {
+  width: 100%;
+  border-top: 1px solid #000;
+  background: #222;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+  width: 80%; /* 1000px / 1250px */
+  font-size: 0.8125em; /* 13 / 16 */
+  max-width: 92.3em; /* 1200px / 13 */
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+  color: #999;
+}
+
+footer strong {
+  font-size: 1.077em; /* 14 / 13 */
+  color: #aaa;
+}
+
+footer a:link, footer a:visited { background:#222; color: #999; text-decoration: underline; }
+footer a:hover { background:#222; color: #fff; text-decoration: underline; }
+
+footer a:link.button {text-decoration: none;}
+
+/* Anpassung, wenn kein Link */
+.f3 {
+  padding-left: 3px;
+}
+
+/* Silbentrennung */
+* {
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+/* Text ist Schaltfläche */
+input[type="radio"]:checked+label{ 
+    font-weight: bold; 
+} 
+
+input[type="checkbox"]:checked + label {
+    font-weight: bold; 
+} 
+
+
+
+/* Logo Abstand */
+#HS-LOGO { padding-left: 5px; }
+
+/* Hinweise */
+.hinweis_grau { font-size:16px; border-bottom: double 3px black; background:lightgray; color: black;font-weight: normal; }
+.hinweis_grau:hover { font-size:16px; border-bottom: double 3px black; background:WhiteSmoke; color: black;font-weight: normal; }
+
+.hinweis { font-size:16px; border-bottom: double 3px black; background:white; color: black;font-weight: normal; }
+.hinweis:hover { font-size:16px; border-bottom: double 3px black; background:lightgray; color: black;font-weight: normal; }
+#headercontainer {  border-bottom: 1px solid black;}.testanzeige{display:none}

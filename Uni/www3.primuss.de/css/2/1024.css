@@ -1,0 +1,37 @@
+/*  MAKE LAYOUT RESPONSIVE at 1024px FOR SMALLER SCREENS ================================================================ */
+
+
+main {
+  width: 99%; 
+}
+
+
+header {
+  width: 93.75%; /* 960px / 1024px */
+}
+
+/* Navigation */
+#navcontainer {
+ font-size:.9em;                                                                                        
+ padding-left: 4px;                                                                                     
+ padding-right: 4px;                                                                                    
+}                                                                                                       
+                                                                                                        
+#navtitle {                                                                                             
+ font-size: 70%;                                                                                        
+}                                                                                                       
+                                                                                                        
+/* Fussbereich */                                                                                       
+footer {                                                                                                
+  width: 93.75%; /* 960px / 1024px */                                                                   
+}                                                                                                       
+                                                                                                        
+/* Allgemeine Angaben */                                                                                
+h1 {font-size: 3em; margin-top: .5em; margin-bottom: .5em;}                                             
+h2 {font-size: 2.6em; margin-top: .4em; margin-bottom: .4em;}                                           
+h3 {font-size: 2.4em; margin-top: .4em; margin-bottom: .4em;}                                           
+h4 {font-size: 2.2em; margin-top: .4em; margin-bottom: .4em;}                                           
+h5 {font-size: 2em; margin-top: .4em; margin-bottom: .4em;}                                             
+h5 {font-size: 1.8em; margin-top: .4em; margin-bottom: .4em;}
+
+#headercontainer {  border-bottom: 1px solid black;}

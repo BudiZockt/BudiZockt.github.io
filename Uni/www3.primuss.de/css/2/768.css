@@ -1,0 +1,28 @@
+/*  Mitte auf 100 % bringen ================================================================ */
+.span_5_of_6 {
+        width: 97%;
+}
+
+/* Kopfbereich */
+header {
+  width: 93%; /* 720px / 768px */
+}
+
+/* Mittelteil */
+main {
+   width: 100%; 
+}
+
+/* Fussbereich */
+footer {
+  width: 93%; /* 960px / 1024px */
+}
+
+/* Allgemeine Angaben */
+h1 {font-size: 2.6em; margin-top: .5em; margin-bottom: .4em;}
+h2 {font-size: 2.4em; margin-top: .4em; margin-bottom: .4em;}
+h3 {font-size: 2.2em; margin-top: .3em; margin-bottom: .3em;}
+h4 {font-size: 2em; margin-top: .2em; margin-bottom: .2em;}
+h5 {font-size: 1.8em; margin-top: .2em; margin-bottom: .2em;}
+h5 {font-size: 1.6em; margin-top: .2em; margin-bottom: .2em;}
+#headercontainer {  border-bottom: 1px solid black;}
